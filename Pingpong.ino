@@ -6,17 +6,17 @@ unsigned long lmt = 0;
 
 // Make the pins into variables
 // MAX7219 pins
-const int din = 12;
-const int cs = 11;
-const int clk = 52;
+const int din = 2;
+const int cs = 10;
+const int clk = 13;
 
 // LCD Screen pins
-const int rs = 50, e = 51, d4 = 4, d5 = 5, d6 = 6, d7 = 7;
+const int rs = 12, e = 11, d4 = 4, d5 = 5, d6 = 6, d7 = 7;
 
 // Make the joystick pins into variables
 const int joyx = A0;
 const int joyy = A1;
-const int sw = 13;
+const int sw = 8;
 
 // Set start to false and reset timer to make sure game doesn't start immediately
 bool start = false;
